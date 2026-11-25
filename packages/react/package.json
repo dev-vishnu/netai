@@ -1,0 +1,52 @@
+{
+  "name": "@netai/react",
+  "version": "0.1.0",
+  "description": "Chat panel for netai: steps, approval cards, and a screen that follows the agent.",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc -p ."
+  },
+  "peerDependencies": {
+    "@ai-sdk/react": "^4.0.0",
+    "ai": "^7.0.0",
+    "react": "^19.0.0"
+  },
+  "devDependencies": {
+    "@ai-sdk/react": "^4.0.186",
+    "@types/react": "^19",
+    "ai": "^7.0.181",
+    "react": "^19.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-vishnu/netai.git",
+    "directory": "packages/react"
+  },
+  "homepage": "https://github.com/dev-vishnu/netai#readme",
+  "keywords": [
+    "agent",
+    "ai",
+    "nextjs",
+    "ai-sdk",
+    "llm",
+    "tool-calling",
+    "agentic"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
