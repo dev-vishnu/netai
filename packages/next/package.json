@@ -5,7 +5,7 @@
   "license": "MIT",
   "type": "module",
   "bin": {
-    "netai": "./dist/cli.js"
+    "netai": "dist/cli.js"
   },
   "exports": {
     ".": {
